@@ -1,10 +1,10 @@
 package main
 
 import (
+	sql "crud-user/lib/mysql"
 	"crud-user/src/business/domain"
 	"crud-user/src/business/usecase"
 	"crud-user/src/handler/rest"
-	sql "crud-user/src/lib/mysql"
 	"log"
 	"os"
 
